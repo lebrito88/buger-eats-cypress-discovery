@@ -18,7 +18,7 @@ jobs:
         with:
           install-command: yarn install
           wait-on: ${{ secrets.BASE_URL }}
-          wait-on-timeout: 130
+          wait-on-timeout: 135
           browser: chrome
           record: true
           group: 'UI - Chrome'
