@@ -16,8 +16,7 @@ jobs:
       - name: 'UI Tests - Chrome'
         uses: cypress-io/github-action@v2
         with:
-          install-command: yarn install
-          cache-key: node-v12-on-${{ runner.os }}-hash-${{ hashFiles('yarn.lock') }}
+          install-command: yarn install          
           wait-on: ${{ secrets.BASE_URL }}
           wait-on-timeout: 120
           browser: chrome
