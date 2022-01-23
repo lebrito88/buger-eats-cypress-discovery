@@ -6,8 +6,7 @@ jobs:
 
   ui-chrome-tests:
     runs-on: ubuntu-latest
-    container: cypress/browsers:node14.17.0-chrome88-ff89
-    cache-key: node-v12-on-${{ runner.os }}-hash-${{ hashFiles('yarn.lock') }}
+    container: cypress/browsers:node14.17.0-chrome88-ff89    
     strategy:
       fail-fast: false
     steps:
@@ -18,6 +17,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           install-command: yarn install
+          cache-key: node-v12-on-${{ runner.os }}-hash-${{ hashFiles('yarn.lock') }}
           wait-on: ${{ secrets.BASE_URL }}
           wait-on-timeout: 120
           browser: chrome
