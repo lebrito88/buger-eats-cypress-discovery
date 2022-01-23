@@ -1,0 +1,50 @@
+{
+    "signup":{
+        "name": "Luciano de Brito",
+        "cpf": "12345678901",
+        "email":"luciano.brito@aol.com",
+        "whatsapp": "44999999999",
+        "address": {
+            "postal_code":"87045000",
+            "street":"Avenida Colombo",
+            "number":"2775",
+            "details":"Galpão 99",
+            "district":"Vila Nova",
+            "city_state":"Maringá/PR"
+        },
+        "delivery_method":"Moto",                            
+        "cnh":"cnh-digital.jpg"   
+    },
+    "cpf_inv":{        
+            "name": "Luke Otirb",
+            "cpf": "876543218ABC",
+            "email":"otirb_luke@aol.com",
+            "whatsapp": "44555555555",
+            "address": {
+                "postal_code":"87045000",
+                "street":"Avenida Colombo",
+                "number":"2775",
+                "details":"Galpão 99",
+                "district":"Vila Nova",
+                "city_state":"Maringá/PR"
+            },
+            "delivery_method":"Moto",                                
+            "cnh":"cnh-digital.jpg"   
+    },
+    "email_inv":{
+        "name": "Luciano de Brito",
+        "cpf": "12345678901",
+        "email":"luke.britt.com.br",
+        "whatsapp": "44999999777",
+        "address": {
+            "postal_code":"87045000",
+            "street":"Avenida Colombo",
+            "number":"1610",
+            "details":"Galpão 77",
+            "district":"Vila Nova",
+            "city_state":"Maringá/PR"
+        },
+        "delivery_method":"Moto",                            
+        "cnh":"cnh-digital.jpg"   
+    }
+}
