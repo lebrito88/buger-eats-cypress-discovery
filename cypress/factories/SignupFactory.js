@@ -1,5 +1,6 @@
 var faker = require('faker')
 var cpf = require('gerador-validador-cpf')
+//1 - Comentário para teste de MERGE via VSCode
 ///massa de teste no format javascript
 export default {
 
