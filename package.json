@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx cypress open"
   },
-  "author": "Luciano de Brito",
+  "author": "Luciano E. A. de Brito",
   "license": "MIT",
   "devDependencies": {
     "cypress": "^9.1.1",
